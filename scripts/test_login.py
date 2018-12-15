@@ -20,3 +20,4 @@ class TestLogin():
         self.login.page_input_password(password)
         self.login.page_input_verify_code(verify_code)
         self.login.page_click_login_submit()
+        print("test00被输出了")
